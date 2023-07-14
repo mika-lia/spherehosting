@@ -1,0 +1,11 @@
+# WHMCS Ruzenko Theme Configuration File
+
+name: "Ruzenko Hosting"
+description: "Ruzenko Hosting Template"
+author: "Nikola Radisic"
+properties:
+  serverSidePagination: false # Defines client side will handle pagination
+provides:
+  bootstrap: 4.5.3
+  jquery: 1.12.4
+  fontawesome: 5.10.1

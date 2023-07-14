@@ -1,0 +1,696 @@
+/* Whole Pages */
+
+.products-header {
+    padding: 6rem 0rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Products Header */
+  .daystodie-h {
+    background-image: linear-gradient(rgba(33, 37, 53, .6), rgba(33, 37, 53, .6)), url('../img/ruzenko/services/banners/7daystodie.png');
+  }
+  .ark-h {
+    background-image: linear-gradient(rgba(33, 37, 53, .6), rgba(33, 37, 53, .6)), url('../img/ruzenko/services/banners/ark.png');
+  }
+  .arma-h {
+    background-image: linear-gradient(rgba(33, 37, 53, .6), rgba(33, 37, 53, .6)), url('../img/ruzenko/services/banners/arma.png');
+  }
+  .csgo-h {
+    background-image: linear-gradient(rgba(33, 37, 53, .6), rgba(33, 37, 53, .6)), url('../img/ruzenko/services/banners/csgo.png');
+  }
+  .fivem-h {
+    background-image: linear-gradient(rgba(33, 37, 53, .6), rgba(33, 37, 53, .6)), url('../img/ruzenko/services/banners/fivem.png');
+  }
+  .garrysmod-h {
+    background-image: linear-gradient(rgba(33, 37, 53, .6), rgba(33, 37, 53, .6)), url('../img/ruzenko/services/banners/garrysmod.png');
+  }
+  .lfordtwo-h {
+    background-image: linear-gradient(rgba(33, 37, 53, .6), rgba(33, 37, 53, .6)), url('../img/ruzenko/services/banners/left4dead2.png');
+  }
+  .minecraft-h {
+    background-image: linear-gradient(rgba(33, 37, 53, .6), rgba(33, 37, 53, .6)), url('../img/ruzenko/services/banners/minecraft.png');
+  }
+  .rust-h {
+    background-image: linear-gradient(rgba(33, 37, 53, .6), rgba(33, 37, 53, .6)), url('../img/ruzenko/services/banners/rust.png');
+  }
+  .terraria-h {
+    background-image: linear-gradient(rgba(33, 37, 53, .6), rgba(33, 37, 53, .6)), url('../img/ruzenko/services/banners/terraria.png');
+  }
+  .unturned-h {
+    background-image: linear-gradient(rgba(33, 37, 53, .6), rgba(33, 37, 53, .6)), url('../img/ruzenko/services/banners/unturned.png');
+  }
+  .valheim-h {
+    background-image: linear-gradient(rgba(33, 37, 53, .6), rgba(33, 37, 53, .6)), url('../img/ruzenko/services/banners/valheim.png');
+  }
+  .discord-h {
+    background-image: linear-gradient(rgba(33, 37, 53, .6), rgba(33, 37, 53, .6)), url('../img/ruzenko/services/banners/discord.png');
+  }
+  .games-h {
+    background: url('../img/ruzenko/services/banners/games.png'), #191C25;padding: 8rem 0;
+  }
+  .teamspeak-h {
+    background-image: linear-gradient(rgba(33, 37, 53, .6), rgba(33, 37, 53, .6)), url('../img/ruzenko/services/banners/teamspeak.png');
+  }
+  .web-h {
+    background-image: linear-gradient(rgba(33, 37, 53, .6), rgba(33, 37, 53, .6)), url('../img/ruzenko/services/banners/web.png');
+  }
+  .vps-h {
+    background-image: linear-gradient(rgba(33, 37, 53, .6), rgba(33, 37, 53, .6)), url('../img/ruzenko/services/banners/vps.png');
+  }
+  .about-h {
+    background-image: linear-gradient(rgba(33, 37, 53, .6), rgba(33, 37, 53, .6)), url('../img/ruzenko/services/banners/about.png');
+  }
+  .legal-h {
+    background-image: linear-gradient(rgba(33, 37, 53, .6), rgba(33, 37, 53, .6)), url('../img/ruzenko/services/banners/legal.png');
+  }
+  
+  .products-header h1 {
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .products-plans .products-plans-title, .products-faq h1, .web-plans .products-plans-title {
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: -0.02em;
+    color: #fff;
+  }
+  
+  .products-plans .products-plans-title span, .web-plans .products-plans-title span {
+    color: #2e86de;
+  }
+  
+  .products-plans .tab-content > .tab-pane {
+    display: block !important;
+  }
+  
+  .discord-plans .card-discord {
+    background-color: #272B3A;
+    border-radius: 10px;
+  }
+  
+  .discord-plans h1 {
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  .discord-plans hr {
+    border-top: 1px solid #5b5d65;
+  }
+  
+  
+  .products-plans .card, .games-list .card, .web-plans .card {
+    transition: all .4s ease;
+  }
+  
+  .products-plans .card:hover, .games-list .card:hover, .web-plans .card:hover {
+    transform: translateY(-6px);
+  }
+  
+  .products-plans .card-promo .promo-wrapper {
+    width: 85px;
+    height: 88px;
+    overflow: hidden;
+    position: absolute;
+    top: -3px;
+    right: 0px;
+  }
+  
+  .products-plans .card-promo .ribbon-blue {  
+    font: bold 15px Sans-Serif;
+    color: #FFF;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+    text-shadow:1px -1px 3px rgba(0,0,0,0.5) ;
+    -webkit-transform: rotate(45deg);
+    -moz-transform:    rotate(45deg);
+    -ms-transform:     rotate(45deg);
+    -o-transform:      rotate(45deg);
+    position: relative;
+    padding: 7px 0;
+    left: -5px;
+    top: 15px;
+    width: 120px;
+    background: #2e86de;
+  }
+  
+  .products-plans .card-promo .ribbon-blue:before, .ribbon-blue:after {
+    content: "";
+    border-top:   3px solid #2e86de;   
+    border-left:  3px solid transparent;
+    border-right: 3px solid transparent;
+    position:absolute;
+    bottom: -3px;
+  }
+  
+  .products-plans .card-promo .ribbon-blue:before {
+    left: 0;
+  }
+  
+  .products-plans .card-promo .ribbon-blue:after {
+    right: 0;
+  }
+  
+  .products-plans .card h1 {
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  .products-plans .card h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  .products-plans .card h2 #price1, 
+  .products-plans .card h2 #price2, 
+  .products-plans .card h2 #price3, 
+  .products-plans .card h2 #price4,
+  .products-plans .card h2 #price5,
+  .products-plans .card h2 #price6 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  .products-plans .card h2 span {
+    font-size: 16px;
+    color: #f1f1f1;
+  }
+  
+  .products-plans .card ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .products-plans .card ul li {
+    line-height: 26px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .products-plans .card ul li i {
+    color: #2e86de;
+  }
+  
+  .products-plans .card .btn {
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+  .products-panel {
+    background-color: #212535;
+  }
+  
+  .products-panel h1, .web-panel h1 {
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .products-panel ul, .web-panel ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .products-panel ul li i, .web-panel ul li i {
+    color: #2e86de;
+  }
+  
+  .products-faq .mb-0 > a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .products-faq .mb-0 > a:after {
+      content: "\f107";
+      font-family: 'Font Awesome 5 Pro'; 
+      position: absolute;
+      right: 0;
+  }
+  
+  .products-faq .mb-0 > a[aria-expanded="true"]:after {
+      content: "\f106";
+      font-family: 'Font Awesome 5 Pro'; 
+  }
+  
+  .products-faq .card {
+    border-radius: 4px;
+      background-color: #1e2127;
+      border-color: #1f2128;
+      margin-bottom: 20px;
+      clear: both;
+      overflow: hidden;
+  }
+  
+  .products-faq .card .card-header {
+      color: #fff;
+      background-color: #15181d;
+      font-weight: 600;
+  }
+  
+  .products-faq .card .card-body {
+      color: #fafafa;
+      font-weight: 300;
+      font-size: 14px;
+  }
+  
+  .discord-features {
+    background-color: #212535;
+  }
+  
+  .discord-features h1 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 700
+  }
+  
+  .discord-features .card {
+    cursor: pointer;
+   }
+  
+  .discord-features .card h2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  .discord-features .card h2 i {
+    transition: all .4s ease;
+   }
+  
+  .discord-features .card:hover h2 i {
+    color: #2e86de;
+  }
+  
+  .teamspeak-plans h2 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .teamspeak-plans .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.9;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .teamspeak-plans .slider:hover {
+    opacity: 1;
+  }
+  
+  .teamspeak-plans .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+  
+  .teamspeak-plans .slider::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #fff;
+    border: 8px solid #29539b;
+    cursor: pointer;
+  }
+  
+  .teamspeak-plans input[type="range"]::-moz-range-progress {
+    background-color: #29539b;
+    background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
+    height: 15px;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .teamspeak-plans input[type="range"] {
+    display: block;
+    width: 100%;
+    background: #191C25;
+  }
+  
+  .teamspeak-plans h4 {
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .teamspeak-plans h4 .month {
+    color: #f1f1f1;
+    font-size: 20px;
+  }
+  
+  .games-search {
+    background-color: #212535;
+  }
+  
+  .games-search .has-search .form-control {
+    padding-left: 2.375rem;
+    border-radius: 0;
+  }
+  
+  .games-search .has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+  }
+  
+  .games-list a {
+    text-decoration: none;
+  }
+  
+  .games-list .card {
+    cursor: pointer;
+    border: 4px solid transparent;
+  }
+  
+  .games-list .card:hover {
+    border: 4px solid rgba(46, 134, 222, .4);
+  }
+  
+  .games-list .card h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  .games-list .card h2 img {
+    margin-top: -3px;
+  }
+  
+  .games-list .card h3 {
+    font-size: 20px;
+    font-weight: 200;
+  }
+  
+  .games-list .card h4 {
+    color: #fff;
+    font-weight: 800;
+  }
+  
+  .games-list .card h4 span {
+    color: #f1f1f1;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  
+  .web-plans .products-plans-title {
+    margin-bottom: 80px !important;
+    font-size: 28px;
+  }
+  
+  .web-plans .card {
+    margin-bottom: 80px !important;
+  }
+  
+  .web-plans .card img {
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    margin-bottom: 10px;
+  }
+  
+  .web-plans .card h2 {
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+  
+  .web-plans .card .card-label {
+    background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
+    padding: 10px 0;
+    font-weight: 700;
+    color: #fff;
+    font-size: 22px;
+  }
+  
+  .web-plans .card .card-label span {
+    color: #f1f1f1;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .web-plans .card ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .web-plans .card ul li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ccc !important;
+  }
+  
+  .web-plans .card ul li span {
+    font-weight: 700;
+    color: #fff !important;
+  }
+  
+  .web-plans .card .btn {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .web-features {
+    background-color: #272B3A;
+  }
+  
+  .web-features h1 {
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  
+  .web-features .web-features-body img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .web-features .web-features-body h4 {
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .web-features .web-features-body p {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .vps-plans table {
+    border:0;
+    width:100%;
+    margin:0;
+    padding:0;
+    border-collapse:collapse;
+    border-spacing:0;
+    color:#c9d6e0
+   }
+   .vps-plans table tbody tr {
+    background:#212535;
+    border-color:#212535;
+    box-shadow:0 0 16px 0 rgba(0,0,0,.06);
+    -webkit-transition:all .3s ease 0s;
+    transition:all .3s ease 0s;
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1);
+    transform:scale(1);
+    margin-bottom:20px!important
+   }
+   .vps-plans table tr:hover {
+    -webkit-transform:scale(1.02);
+    -moz-transform:scale(1.02);
+    -ms-transform:scale(1.02);
+    transform:scale(1.02)
+   }
+   .vps-plans table tbody tr td {
+    padding:20px 15px;
+    font-size:14px;
+    text-align:center
+   }
+   .vps-plans table tbody tr td h2 {
+    text-transform:uppercase;
+    font-size:24px;
+    color:#fff;
+    font-weight:700
+   }
+   .vps-plans table tbody tr td .card {
+    background:#272B3A;
+    border-color:#131a2a;
+    box-shadow:0 0 16px 0 rgba(0,0,0,.06);
+    padding:10px;
+    transition:all .3s ease 0s
+   }
+   .vps-plans table tbody tr td .card .price {
+    text-align:center;
+    margin:0 auto;
+    color:#fff;
+    font-size:20px;
+    font-weight:700
+   }
+   .vps-plans table tbody tr td .card .price span {
+    font-size:14px;
+    font-weight:400
+   }
+   .vps-plans table tbody tr td .card .btn {
+    text-transform:uppercase;
+    font-size:14px;
+    font-weight:700
+   }
+   @media screen and (max-width:800px) {
+    .vps-plans table {
+     border:1px solid transparent;
+     box-shadow:none
+    }
+    .vps-plans table thead {
+     display:none
+    }
+    .vps-plans table tbody tr {
+     padding:20px;
+     margin-bottom:20px!important;
+     display:block
+    }
+    .vps-plans table tbody tr td:before {
+     float:left;
+     font-size:10px;
+     text-transform:uppercase;
+     font-weight:700
+    }
+    .vps-plans table tbody tr td {
+     display:block;
+     font-size:14px;
+     padding:10px 10px!important;
+     text-align:center
+    }
+    .vps-plans table tbody tr td .card {
+     padding:10px 10px
+    }
+    .vps-plans table tbody tr td .card .price {
+     margin-bottom:10px
+    }
+    .vps-plans table tbody tr td .card .btn {
+     display:block
+    }
+   }
+   .vps-plans-includes h2 {
+    font-size:26px;
+    color:#fff;
+    font-weight:600
+   }
+   .vps-plans-includes ul {
+    padding:0;
+    margin:0;
+    list-style:none
+   }
+   .vps-plans-includes ul li {
+    color:#c9d6e0;
+    font-size:18px;
+    font-weight:500
+   }
+   .vps-plans-includes ul li span {
+    color:#fff
+   }
+   .vps-plans-includes ul li i {
+    color:#008ffe
+   }
+   .vps-plans-includes .card {
+    background:#212535;
+    border-color:#212535;
+    -webkit-box-shadow:0 0 16px 0 rgba(0,0,0,.06);
+    box-shadow:0 0 16px 0 rgba(0,0,0,.06)
+   }
+   .vps-plans-includes .card img {
+    margin:0 auto;
+    display:block
+   }
+   .vps-plans-includes .card h4 {
+    color:#fff;
+    font-weight:600;
+    font-size:20px
+   }
+   .vps-plans-virtualizer {
+    background:#12182b
+   }
+   @media (max-width:768px) {
+    .vps-plans-virtualizer img {
+     margin-bottom:40px
+    }
+   }
+   .vps-plans-virtualizer .media h5 {
+    color:#fff;
+    text-transform:uppercase;
+    font-weight:600;
+    font-size:20px
+   }
+   .vps-plans-processors h2 {
+    color:#fff;
+    text-transform:uppercase;
+    font-weight:700;
+    font-size:30px
+  }
+  
+  .about-timeline .bg-dark {
+    background-color: #272B3A !important;
+  }
+  .about-timeline .border-right {
+    border-right: 1px solid #272B3A !important;
+  }
+  
+  .about-timeline h4 {
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .about-us-story {
+    background-color: #272B3A;
+  }
+  
+  .about-us-story h1 {
+    color: #fff;
+    font-weight: 800;
+  }
+  
+  .about-us-team h1 {
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  
+  .about-us-team .card img {
+    width: 80px !important;
+    height: 80px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .about-us-team .card h2 {
+    color: #fff;
+    font-weight: 600;
+  }

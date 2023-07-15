@@ -1,7 +1,7 @@
 <section id="Carousel">
     <div id="radeSlider" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active" style="background-image: url('{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/banners/carousel-1.png');">
+            <div class="carousel-item" style="background-image: url('{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/banners/carousel-1.png');">
                 <div class="container h-100">
                     <div class="row align-items-center h-100">
                         <div class="col-xl-6 col-lg-8">
@@ -20,7 +20,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item" style="background-image: url('{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/banners/carousel-2.png');">
+            <div class="carousel-item active" style="background-image: url('{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/banners/carousel-2.png');">
                 <div class="container h-100">
                     <div class="row align-items-center h-100">
                         <div class="col-xl-6 col-lg-8">
@@ -65,7 +65,7 @@
                             <div class="carousel-content mt-5">
                                 <h1 class="animate__animated animate__fadeInDown">Terraria</h1>
                                 <p class="animate__animated animate__fadeInDown animate__delay-1s">Servers start as low as $1.00/GB€/slot</p><br />
-                                <a href="{$WEB_ROOT}/fivem.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-primary">View More</a>
+                                <a href="{$WEB_ROOT}/terraria.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-primary">View More</a>
                                 <a href="{$WEB_ROOT}/cart.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-outline-light">Order</a>
                             </div>
                         </div>

@@ -15,14 +15,14 @@
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-8 col-md-6">
                     <div>
-                        <h1 class="mb-0">Ready to Get Started?</h1>
-                        <p class="mb-0">The servers are booted, select your plan and become our latest satisfied client.</p>
+                        <h1 class="mb-0">Pronto para começar seu servidor?</h1>
+                        <p class="mb-0">Selecione seu plano e crie sua comunidade agora mesmo!</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 d-flex align-items-center">
                     <div id="cta-btns">
-                        <a href="{$WEB_ROOT}/game-servers.php" class="btn btn-primary">View Services</a>
-                        <a href="{$WEB_ROOT}/register.php" class="btn btn-default">Create a Account</a>
+                        <a href="{$WEB_ROOT}/game-servers.php" class="btn btn-primary">Ver serviços</a>
+                        <a href="{$WEB_ROOT}/register.php" class="btn btn-default">Crie uma conta</a>
                     </div>
                 </div>
             </div>
@@ -34,7 +34,7 @@
                 <div class="col-lg-8">
                     <div class="row">
                         <div class="col-lg-3 col-md-3">
-                            <h4>Products</h4>
+                            <h4>Produtos</h4>
                             <ul>
                                 <li><a href="{$WEB_ROOT}/csgo.php">CS:GO Hosting</a></li>
                                 <li><a href="{$WEB_ROOT}/minecraft.php">Minecraft Hosting</a></li>
@@ -45,7 +45,7 @@
                             </ul>
                         </div>
                         <div class="col-lg-3 col-md-3">
-                            <h4>Support</h4>
+                            <h4>Suporte</h4>
                             <ul>
                                 <li><a href="#">Live Support</a></li>
                                 <li><a href="#">Support Discord</a></li>
@@ -54,20 +54,20 @@
                             </ul>
                         </div>
                         <div class="col-lg-3 col-md-3">
-                            <h4>Clients</h4>
+                            <h4>Clientes</h4>
                             <ul>
                                 <li><a href="{$WEB_ROOT}/login.php">Login</a></li>
-                                <li><a href="{$WEB_ROOT}/register.php">Register</a></li>
-                                <li><a href="{$WEB_ROOT}/contact.php">Submit a ticket</a></li>
+                                <li><a href="{$WEB_ROOT}/register.php">Registre-se</a></li>
+                                <li><a href="{$WEB_ROOT}/contact.php">Enviar um ticket</a></li>
                                 <li><a href="#">Invoices</a></li>
-                                <li><a href="{$WEB_ROOT}/about-us.php">About us</a></li>
+                                <li><a href="{$WEB_ROOT}/about-us.php">Sobre nós</a></li>
                             </ul>
                         </div>
                         <div class="col-lg-3 col-md-3">
-                            <h4>Legal</h4>
+                            <h4>Legalidade</h4>
                             <ul>
-                                <li><a href="{$WEB_ROOT}/terms-of-service.php">Terms of Service</a></li>
-                                <li><a href="{$WEB_ROOT}/privacy-policy.php">Privacy Policy</a></li>
+                                <li><a href="{$WEB_ROOT}/terms-of-service.php">Termos de serviço</a></li>
+                                <li><a href="{$WEB_ROOT}/privacy-policy.php">Politica de privacidade</a></li>
                             </ul>
                         </div>
                     </div>

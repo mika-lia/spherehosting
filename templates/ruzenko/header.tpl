@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="{$charset}" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,7 +19,7 @@
         <div class="container">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item contact">
-                    <a href="mailto:radisic00@gmail.com" class="nav-link"><i class="fas fa-comments"></i> support@ruzenko.com</a>
+                    <a href="mailto:admin@spherehosting.com.br" class="nav-link"><i class="fas fa-comments"></i> support@spherehosting.com.br</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
@@ -40,7 +40,7 @@
                         {/if}
                     </a>
                     <div class="dropdown-menu dropdown-menu-right dropdown-large" aria-labelledby="navbarDropdown">
-                        <h6 class="dropdown-header text-center"><i class="fas fa-bullhorn"></i> Alerts Center</h6>
+                        <h6 class="dropdown-header text-center"><i class="fas fa-bullhorn"></i> Centro de alertas</h6>
                         {foreach $clientAlerts as $alert}
                         <a class="dropdown-item" href="{$alert->getLink()}">
                             <p class="mb-0">

@@ -6,9 +6,9 @@
                     <div class="row align-items-center h-100">
                         <div class="col-xl-6 col-lg-8">
                             <div class="carousel-content mt-5">
-                                <h1 class="animate__animated animate__fadeInDown">CS:GO Servers</h1>
-                                <p class="animate__animated animate__fadeInDown animate__delay-1s">Servers start as low as $1.00/GB</p><br />
-                                <a href="{$WEB_ROOT}/csgo.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-primary">View More</a>
+                                <h1 class="animate__animated animate__fadeInDown">Servidores Minecraft</h1>
+                                <p class="animate__animated animate__fadeInDown animate__delay-1s">À partir de R$10</p><br />
+                                <a href="{$WEB_ROOT}/minecraft.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-primary">View More</a>
                                 <a href="{$WEB_ROOT}/cart.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-outline-light">Order</a>
                             </div>
                         </div>
@@ -25,9 +25,9 @@
                     <div class="row align-items-center h-100">
                         <div class="col-xl-6 col-lg-8">
                             <div class="carousel-content mt-5">
-                                <h1 class="animate__animated animate__fadeInDown">Minecraft Servers</h1>
-                                <p class="animate__animated animate__fadeInDown animate__delay-1s">Servers start as low as $2.50/GB</p><br />
-                                <a href="{$WEB_ROOT}/minecraft.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-primary">View More</a>
+                                <h1 class="animate__animated animate__fadeInDown">Servidores Terraria</h1>
+                                <p class="animate__animated animate__fadeInDown animate__delay-1s">À partir de R$5</p><br />
+                                <a href="{$WEB_ROOT}/terraria.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-primary">View More</a>
                                 <a href="{$WEB_ROOT}/cart.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-outline-light">Order</a>
                             </div>
                         </div>
@@ -44,9 +44,9 @@
                     <div class="row align-items-center h-100">
                         <div class="col-xl-6 col-lg-8">
                             <div class="carousel-content mt-5">
-                                <h1 class="animate__animated animate__fadeInDown">Left 4 Dead 2</h1>
-                                <p class="animate__animated animate__fadeInDown animate__delay-1s">Servers start as low as $1.00/GB€/slot</p><br />
-                                <a href="{$WEB_ROOT}/left-4-dead-2.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-primary">View More</a>
+                                <h1 class="animate__animated animate__fadeInDown">Servidores Valheim</h1>
+                                <p class="animate__animated animate__fadeInDown animate__delay-1s">À partir de R$10</p><br />
+                                <a href="{$WEB_ROOT}/valheim.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-primary">View More</a>
                                 <a href="{$WEB_ROOT}/cart.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-outline-light">Order</a>
                             </div>
                         </div>
@@ -58,20 +58,20 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item" style="background-image: url('{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/banners/carousel-4.png');">
+            <div class="carousel-item" style="background-image: url('{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/banners/carousel-6.png');">
                 <div class="container h-100">
                     <div class="row align-items-center h-100">
                         <div class="col-xl-6 col-lg-8">
                             <div class="carousel-content mt-5">
-                                <h1 class="animate__animated animate__fadeInDown">Terraria</h1>
-                                <p class="animate__animated animate__fadeInDown animate__delay-1s">Servers start as low as $1.00/GB€/slot</p><br />
-                                <a href="{$WEB_ROOT}/terraria.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-primary">View More</a>
+                                <h1 class="animate__animated animate__fadeInDown">Web Servers</h1>
+                                <p class="animate__animated animate__fadeInDown animate__delay-1s">O seu website à partir de R$20</p><br />
+                                <a href="{$WEB_ROOT}/web-hosting.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-primary">View More</a>
                                 <a href="{$WEB_ROOT}/cart.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-outline-light">Order</a>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-4">
                             <div class="carousel-image">
-                                <img class="img-fluid animate__animated animate__backInDown" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/images/fivem.png">
+                                <img class="img-fluid animate__animated animate__backInDown" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/images/web.png">
                             </div>
                         </div>
                     </div>
@@ -109,7 +109,7 @@
                 <div class="col">
                     <div class="card" data-target="#radeSlider" data-slide-to="3">
                         <div class="card-body text-center">
-                            <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/dots/fivem-carousel-dot.png">
+                            <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/dots/web-carousel-dot.png">
                         </div>
                     </div>
                 </div>
@@ -143,7 +143,7 @@
                 <div class="features-media text-center">
                     <span class="flaticon-cpu"></span>
                     <h2>Configuração de ponta</h2>
-                    <p>Nossos servidores utilizam processadores Intel Xeon de última geração. </p>
+                    <p>Nossos servidores utilizam processadores AMD Ryzen de última geração. </p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6" data-aos="zoom-in-up">
@@ -160,13 +160,13 @@
                     <p>Precisa de um servidor para algum jogo que não listamos em nosso site? Sem problemas, temos dezenas de jogos disponíveis além dos que estão no site. </p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6" data-aos="zoom-in-up">
+            <!-- <div class="col-lg-4 col-md-6" data-aos="zoom-in-up">
                 <div class="features-media text-center">
                     <span class="flaticon-headphones"></span>
                     <h2>Support 24/7</h2>
                     <p>Have an issue or concern? Open a support ticket with us anytime and get a quick response.</p>
-                </div>
-            </div>
+                </div> 
+            </div> -->
         </div>
     </div>
 </section>
@@ -176,7 +176,7 @@
 <section id="Games" class="py-5">
     <div class="container">
         <div class="section-title mb-5 mt-3 text-center">
-            <h2>Mais <span class="blue">populares</span> no momento</h2>
+            <h2>Conheça <span class="blue">todos</span> os jogos com que trabalhamos</h2>
             <p>Todos os jogos mais famosos estão aqui na Sphere Hosting</p>
         </div>
         <div class="row">
@@ -199,7 +199,7 @@
                     </div>
                     <div class="item">
                         <div class="product-card">
-                            <figure class="product-effect">
+                            <figure class="https://spherehosting.com.br/index.phpproduct-effect">
                                 <img src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/products/valheim.png" />
                                 <figcaption>
                                     <h2 class="valheim"><span>Valheim</span></h2>
@@ -262,7 +262,7 @@
         </div>
     </div>
 </section>
-<section id="Colocation" class="mt-5 mb-5">
+<!-- <section id="Colocation" class="mt-5 mb-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-8" data-aos="zoom-in-right">
@@ -276,12 +276,12 @@
                 <img class="img-fluid" data-aos="fade-left" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/virtual-private-server.png">
             </div>
         </div>
-</section>
+</section> -->
 <section id="Map">
     <div class="container">
         <div class="section-title mb-5 mt-3 text-center">
-            <h2>Location Matters!</h2>
-            <p>Established a widespread network which is <span class="blue">4 cities</span> strong.</p>
+            <h2>A localidade do seu servidor importa!</h2>
+            <p>Temos servidores localizados em Nova York - <span class="blue">EUA</span>, São Paulo - <span class="blue">Brasil</span> e Santiago - <span class="blue">Chile</span></p>
         </div>
         <div class="row">
             <div id="mapsvg"></div>

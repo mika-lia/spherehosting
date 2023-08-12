@@ -1,34 +1,15 @@
 <section id="Carousel">
     <div id="radeSlider" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item" style="background-image: url('{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/banners/carousel-1.png');">
+            <div class="carousel-item active" style="background-image: url('{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/banners/carousel-2.png');">
                 <div class="container h-100">
                     <div class="row align-items-center h-100">
                         <div class="col-xl-6 col-lg-8">
                             <div class="carousel-content mt-5">
                                 <h1 class="animate__animated animate__fadeInDown">Servidores Minecraft</h1>
                                 <p class="animate__animated animate__fadeInDown animate__delay-1s">À partir de R$10</p><br />
-                                <a href="{$WEB_ROOT}/minecraft.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-primary">View More</a>
-                                <a href="{$WEB_ROOT}/cart.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-outline-light">Order</a>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-4">
-                            <div class="carousel-image">
-                                <img class="img-fluid animate__animated animate__backInDown" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/images/csgo.png">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item active" style="background-image: url('{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/banners/carousel-2.png');">
-                <div class="container h-100">
-                    <div class="row align-items-center h-100">
-                        <div class="col-xl-6 col-lg-8">
-                            <div class="carousel-content mt-5">
-                                <h1 class="animate__animated animate__fadeInDown">Servidores Terraria</h1>
-                                <p class="animate__animated animate__fadeInDown animate__delay-1s">À partir de R$5</p><br />
-                                <a href="{$WEB_ROOT}/terraria.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-primary">View More</a>
-                                <a href="{$WEB_ROOT}/cart.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-outline-light">Order</a>
+                                <a href="{$WEB_ROOT}/minecraft.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-primary">Saiba mais</a>
+                                <a href="{$WEB_ROOT}/cart.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-outline-light">Comprar agora</a>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-4">
@@ -39,20 +20,39 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item" style="background-image: url('{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/banners/carousel-3.png');">
+            <div class="carousel-item" style="background-image: url('{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/banners/terraria.png');">
                 <div class="container h-100">
                     <div class="row align-items-center h-100">
                         <div class="col-xl-6 col-lg-8">
                             <div class="carousel-content mt-5">
-                                <h1 class="animate__animated animate__fadeInDown">Servidores Valheim</h1>
-                                <p class="animate__animated animate__fadeInDown animate__delay-1s">À partir de R$10</p><br />
-                                <a href="{$WEB_ROOT}/valheim.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-primary">View More</a>
-                                <a href="{$WEB_ROOT}/cart.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-outline-light">Order</a>
+                                <h1 class="animate__animated animate__fadeInDown">Servidores Terraria</h1>
+                                <p class="animate__animated animate__fadeInDown animate__delay-1s">À partir de R$5</p><br />
+                                <a href="{$WEB_ROOT}/terraria.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-primary">Saiba Mais</a>
+                                <a href="{$WEB_ROOT}/cart.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-outline-light">Comprar agora</a>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-4">
                             <div class="carousel-image">
-                                <img class="img-fluid animate__animated animate__backInDown" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/images/left4dead2.png">
+                                <img class="img-fluid animate__animated animate__backInDown" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/images/terraria-ch.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/banners/tf2.png');">
+                <div class="container h-100">
+                    <div class="row align-items-center h-100">
+                        <div class="col-xl-6 col-lg-8">
+                            <div class="carousel-content mt-5">
+                                <h1 class="animate__animated animate__fadeInDown">Servidores Team Fortress 2</h1>
+                                <p class="animate__animated animate__fadeInDown animate__delay-1s">À partir de R$40</p><br />
+                                <a href="{$WEB_ROOT}/left-4-dead-2.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-primary">Saiba Mais</a>
+                                <a href="{$WEB_ROOT}/cart.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-outline-light">Comprar agora</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-4">
+                            <div class="carousel-image">
+                                <img class="img-fluid animate__animated animate__backInDown" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/images/tf2-sold.png">
                             </div>
                         </div>
                     </div>
@@ -65,8 +65,8 @@
                             <div class="carousel-content mt-5">
                                 <h1 class="animate__animated animate__fadeInDown">Web Servers</h1>
                                 <p class="animate__animated animate__fadeInDown animate__delay-1s">O seu website à partir de R$20</p><br />
-                                <a href="{$WEB_ROOT}/web-hosting.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-primary">View More</a>
-                                <a href="{$WEB_ROOT}/cart.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-outline-light">Order</a>
+                                <a href="{$WEB_ROOT}/web-hosting.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-primary">Saiba Mais</a>
+                                <a href="{$WEB_ROOT}/cart.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-outline-light">Comprar agora</a>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-4">
@@ -87,7 +87,7 @@
                     <div class="card" data-target="#radeSlider" data-slide-to="0" class="active">
                         <div class="card-body text-center">
                             <h3 class="mb-0">
-                                <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/dots/csgo-carousel-dot.png">
+                                <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/dots/minecraft-carousel-dot.png">
                             </h3>
                         </div>
                     </div>
@@ -95,14 +95,14 @@
                 <div class="col">
                     <div class="card" data-target="#radeSlider" data-slide-to="1">
                         <div class="card-body text-center">
-                            <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/dots/minecraft-carousel-dot.png">
+                            <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/dots/terraria-carousel-dot.png">
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card" data-target="#radeSlider" data-slide-to="2">
                         <div class="card-body text-center">
-                            <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/dots/left4dead2-carousel-dot.png">
+                            <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/carousel/dots/tf2-carousel-dot.png">
                         </div>
                     </div>
                 </div>
@@ -176,8 +176,8 @@
 <section id="Games" class="py-5">
     <div class="container">
         <div class="section-title mb-5 mt-3 text-center">
-            <h2>Conheça <span class="blue">todos</span> os jogos com que trabalhamos</h2>
-            <p>Todos os jogos mais famosos estão aqui na Sphere Hosting</p>
+            <h2>Conheça <span class="blue">todos</span> os nossos produtos</h2>
+            <p>Todos os jogos e serviços mais famosos estão aqui na Sphere Hosting</p>
         </div>
         <div class="row">
             <div class="carousel-wrap">
@@ -185,13 +185,13 @@
                     <div class="item">
                         <div class="product-card">
                             <figure class="product-effect">
-                                <img src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/products/minecraft.png" />
+                                <img src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/products/unturned.png" />
                                 <figcaption>
-                                    <h2 class="minecraft"><span>Minecraft</span></h2>
+                                    <h2 class="unturned"><span>Unturned</span></h2>
                                     <div class="description">
                                         <span class="start">A partir de</span><br />
-                                        <h4>&dollar;1.00 <span class="month">/ GB</span></h4>
-                                        <a href="{$WEB_ROOT}/minecraft.php" class="btn btn-radisic">Saiba mais</a>
+                                        <h4>R$10,00 <span class="month">por mês</span></h4>
+                                        <a href="{$WEB_ROOT}/unturned.php" class="btn btn-radisic">Saiba mais</a>
                                     </div>
                                 </figcaption>
                             </figure>
@@ -199,14 +199,14 @@
                     </div>
                     <div class="item">
                         <div class="product-card">
-                            <figure class="https://spherehosting.com.br/index.phpproduct-effect">
+                            <figure class="product-effect">
                                 <img src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/products/valheim.png" />
                                 <figcaption>
                                     <h2 class="valheim"><span>Valheim</span></h2>
                                     <div class="description">
                                         <span class="start">A partir de</span><br />
-                                        <h4>&dollar;2.50 <span class="month">/ monthly</span></h4>
-                                        <a href="{$WEB_ROOT}/rust.php" class="btn btn-radisic">Saiba mais</a>
+                                        <h4>&dollar;2.50 <span class="month">/ por mês</span></h4>
+                                        <a href="{$WEB_ROOT}/valheim.php" class="btn btn-radisic">Saiba mais</a>
                                     </div>
                                 </figcaption>
                             </figure>
@@ -215,13 +215,13 @@
                     <div class="item">
                         <div class="product-card">
                             <figure class="product-effect">
-                                <img src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/products/terraria.png" />
+                                <img src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/products/nextcloud.png" />
                                 <figcaption>
-                                    <h2 class="terraria"><span>Terraria</span></h2>
+                                    <h2 class="nextcloud"><span>Nextcloud</span></h2>
                                     <div class="description">
-                                        <span class="start">A partir de</span><br />
-                                        <h4>&dollar;1.00 <span class="month">/ monthly</span></h4>
-                                        <a href="{$WEB_ROOT}/terraria.php" class="btn btn-radisic">Saiba mais</a>
+                                        <span class="start">Sua privacidade e segurança a partir de</span><br />
+                                        <h4>&dollar;1.00 <span class="month">/ por mês</span></h4>
+                                        <a href="{$WEB_ROOT}/teamspeak.php" class="btn btn-radisic">Saiba mais</a>
                                     </div>
                                 </figcaption>
                             </figure>
@@ -230,13 +230,13 @@
                     <div class="item">
                         <div class="product-card">
                             <figure class="product-effect">
-                                <img src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/products/ark.png" />
+                                <img src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/products/vps.png" />
                                 <figcaption>
-                                    <h2 class="ark"><span>Servers</span></h2>
+                                    <h2 class="vps"><span>Servidores VPS</span></h2>
                                     <div class="description">
                                         <span class="start">A partir de</span><br />
-                                        <h4>&dollar;15.00 <span class="month">/ monthly</span></h4>
-                                        <a href="{$WEB_ROOT}/ark.php" class="btn btn-radisic disabled">Saiba mais</a>
+                                        <h4>&dollar;15.00 <span class="month">/ por mês</span></h4>
+                                        <a href="{$WEB_ROOT}/vps-hosting.php" class="btn btn-radisic disabled">Saiba mais</a>
                                     </div>
                                 </figcaption>
                             </figure>
@@ -250,7 +250,7 @@
                                     <h2 class="left4dead2"><span>Left 4 Dead 2</span></h2>
                                     <div class="description">
                                         <span class="start">A partir de </span><br />
-                                        <h4>&dollar;15.00 <span class="month">/ monthly</span></h4>
+                                        <h4>&dollar;15.00 <span class="month">/ por mês</span></h4>
                                         <a href="{$WEB_ROOT}/left-4-dead-2.php" class="btn btn-radisic disabled">Saiba mais</a>
                                     </div>
                                 </figcaption>
@@ -284,7 +284,7 @@
             <p>Temos servidores localizados em Nova York - <span class="blue">EUA</span>, São Paulo - <span class="blue">Brasil</span> e Santiago - <span class="blue">Chile</span></p>
         </div>
         <div class="row">
-            <div id="mapsvg"></div>
+            <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/worldmap2.png">
         </div>
     </div>
 </section>

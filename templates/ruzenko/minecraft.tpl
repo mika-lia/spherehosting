@@ -1,28 +1,29 @@
 <div class="products-header minecraft-h mb-5">
     <div class="container">
         {include file="$template/includes/pageheader.tpl" title=$displayTitle desc=$tagline showbreadcrumb=false}
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <p>Seu servidor de Minecraft está aqui. Seja Forge, Fabric, Spigot ou Bukkit, todas as nossas opções incluem mods e slots ilimitados*.
+        Quer ajuda para montar seu servidor? Também temos planos premium especiais com consultoria e setup para que você receba seu servidor prontinho e configurado.</p>
     </div>
 </div>
 <div class="products-plans">
     <div class="container">
-        <h2 class="products-plans-title mb-5">Our <span>Minecraft</span> Server Plans</h2>
+        <h2 class="products-plans-title mb-5">Nossos <span>Planos</span></h2>
         <div class="swicher-btn text-center justify-content-center mb-5">
-            <a href="javascript:novoid(0)" class="btn btn-primary" onclick="changePrice('1')">Budget Plan</a>
-            <a href="javascript:novoid(0)" class="btn btn-primary" onclick="changePrice('2')">Premium Plan</a>
+            <a href="javascript:novoid(0)" class="btn btn-primary" onclick="changePrice('1')">Planos Econômicos</a>
+            <a href="javascript:novoid(0)" class="btn btn-primary" onclick="changePrice('2')">Planos Premium</a>
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="card mb-5">
                     <div class="card-body text-center">
                         <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/services/minecraft/block-1.png">
-                        <h1 class="pt-3"><span id="memory1">512</span>MB</h1>
-                        <h2>&dollar;<span id="price1">0.90</span> / <span>monthly</span></h2>
+                        <h1 class="pt-3"><span id="memory1">2</span>GB</h1>
+                        <h2>&dollar;<span id="price1">R$20,00</span> / <span>mensal</span></h2>
                         <ul class="py-3">
-                            <li><i class="fas fa-check-circle"></i> 4.4 Ghz CPU Clock Speed</li>
-                            <li><i class="fas fa-check-circle"></i> NVMe SSD Storage</li>
-                            <li><i class="fas fa-check-circle"></i> Pterodactyl Panel</li>
-                            <li><i class="fas fa-check-circle"></i> Support 24/7</li>
+                            <li><i class="fas fa-check-circle"></i> CPU Xeon Ultima geração</li>
+                            <li><i class="fas fa-check-circle"></i> NVMe SSD</li>
+                            <li><i class="fas fa-check-circle"></i> Painel Pterodactyl</li>
+                            <li><i class="fas fa-check-circle"></i> Suporte 24/7</li>
                         </ul>
                         <a href="" id="buyLink1" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Order now</a>
                     </div>
@@ -35,13 +36,13 @@
 					</div>
                     <div class="card-body text-center">
                         <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/services/minecraft/block-3.png">
-                        <h1 class="pt-3"><span id="memory2">1</span>GB</h1>
-                        <h2>&dollar;<span id="price2">1.90</span> / <span>monthly</span></h2>
+                        <h1 class="pt-3"><span id="memory2">4</span>GB</h1>
+                        <h2>&dollar;<span id="price2">R$35,00</span> / <span>mensal</span></h2>
                         <ul class="py-3">
-                            <li><i class="fas fa-check-circle"></i> 4.4 Ghz CPU Clock Speed</li>
-                            <li><i class="fas fa-check-circle"></i> NVMe SSD Storage</li>
-                            <li><i class="fas fa-check-circle"></i> Pterodactyl Panel</li>
-                            <li><i class="fas fa-check-circle"></i> Support 24/7</li>
+                            <li><i class="fas fa-check-circle"></i> CPU Xeon Ultima geração</li>
+                            <li><i class="fas fa-check-circle"></i> NVMe SSD</li>
+                            <li><i class="fas fa-check-circle"></i> Painel Pterodactyl</li>
+                            <li><i class="fas fa-check-circle"></i> Suporte 24/7</li>
                         </ul>
                         <a href="" id="buyLink2" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Order now</a>
                     </div>
@@ -51,13 +52,13 @@
                 <div class="card mb-5">
                     <div class="card-body text-center">
                         <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/services/minecraft/block-5.png">
-                        <h1 class="pt-3"><span id="memory3">3</span>GB</h1>
-                        <h2>&dollar;<span id="price3">3.20</span> / <span>monthly</span></h2>
+                        <h1 class="pt-3"><span id="memory3">6</span>GB</h1>
+                        <h2>&dollar;<span id="price3">R$52,00</span> / <span>mensal</span></h2>
                         <ul class="py-3">
-                            <li><i class="fas fa-check-circle"></i> 4.4 Ghz CPU Clock Speed</li>
-                            <li><i class="fas fa-check-circle"></i> NVMe SSD Storage</li>
-                            <li><i class="fas fa-check-circle"></i> Pterodactyl Panel</li>
-                            <li><i class="fas fa-check-circle"></i> Support 24/7</li>
+                            <li><i class="fas fa-check-circle"></i> CPU Xeon Ultima geração</li>
+                            <li><i class="fas fa-check-circle"></i> NVMe SSD</li>
+                            <li><i class="fas fa-check-circle"></i> Painel Pterodactyl</li>
+                            <li><i class="fas fa-check-circle"></i> Suporte 24/7</li>
                         </ul>
                         <a href="" id="buyLink3" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Order now</a>
                     </div>
@@ -67,13 +68,13 @@
                 <div class="card mb-5">
                     <div class="card-body text-center">
                         <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/services/minecraft/block-7.png">
-                        <h1 class="pt-3"><span id="memory4">6</span>GB</h1>
-                        <h2>&dollar;<span id="price4">5</span> / <span>monthly</span></h2>
+                        <h1 class="pt-3"><span id="memory4">8</span>GB</h1>
+                        <h2>&dollar;<span id="price4">R$70,00</span> / <span>mensal</span></h2>
                         <ul class="py-3">
-                            <li><i class="fas fa-check-circle"></i> 4.4 Ghz CPU Clock Speed</li>
-                            <li><i class="fas fa-check-circle"></i> NVMe SSD Storage</li>
-                            <li><i class="fas fa-check-circle"></i> Pterodactyl Panel</li>
-                            <li><i class="fas fa-check-circle"></i> Support 24/7</li>
+                            <li><i class="fas fa-check-circle"></i> CPU Xeon Ultima geração</li>
+                            <li><i class="fas fa-check-circle"></i> NVMe SSD</li>
+                            <li><i class="fas fa-check-circle"></i> Painel Pterodactyl</li>
+                            <li><i class="fas fa-check-circle"></i> Suporte 24/7</li>
                         </ul>
                         <a href="" id="buyLink4" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Order now</a>
                     </div>
@@ -83,13 +84,13 @@
                 <div class="card mb-5">
                     <div class="card-body text-center">
                         <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/services/minecraft/block-9.png">
-                        <h1 class="pt-3"><span id="memory5">8</span>GB</h1>
-                        <h2>&dollar;<span id="price5">7.50</span> / <span>monthly</span></h2>
+                        <h1 class="pt-3"><span id="memory5">10</span>GB</h1>
+                        <h2>&dollar;<span id="price5">R$90,00</span> / <span>mensal</span></h2>
                         <ul class="py-3">
-                            <li><i class="fas fa-check-circle"></i> 4.4 Ghz CPU Clock Speed</li>
-                            <li><i class="fas fa-check-circle"></i> NVMe SSD Storage</li>
-                            <li><i class="fas fa-check-circle"></i> Pterodactyl Panel</li>
-                            <li><i class="fas fa-check-circle"></i> Support 24/7</li>
+                            <li><i class="fas fa-check-circle"></i> CPU Xeon Ultima geração</li>
+                            <li><i class="fas fa-check-circle"></i> NVMe SSD</li>
+                            <li><i class="fas fa-check-circle"></i> Painel Pterodactyl</li>
+                            <li><i class="fas fa-check-circle"></i> Suporte 24/7</li>
                         </ul>
                         <a href="" id="buyLink5" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Order now</a>
                     </div>
@@ -100,12 +101,12 @@
                     <div class="card-body text-center">
                         <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/services/minecraft/block-11.png">
                         <h1 class="pt-3"><span id="memory6">12</span>GB</h1>
-                        <h2>&dollar;<span id="price6">10</span> / <span>monthly</span></h2>
+                        <h2>&dollar;<span id="price6">R$109,99</span> / <span>mensal</span></h2>
                         <ul class="py-3">
-                            <li><i class="fas fa-check-circle"></i> 4.4 Ghz CPU Clock Speed</li>
-                            <li><i class="fas fa-check-circle"></i> NVMe SSD Storage</li>
-                            <li><i class="fas fa-check-circle"></i> Pterodactyl Panel</li>
-                            <li><i class="fas fa-check-circle"></i> Support 24/7</li>
+                            <li><i class="fas fa-check-circle"></i> CPU Xeon Ultima geração</li>
+                            <li><i class="fas fa-check-circle"></i> NVMe SSD</li>
+                            <li><i class="fas fa-check-circle"></i> Painel Pterodactyl</li>
+                            <li><i class="fas fa-check-circle"></i> Suporte 24/7</li>
                         </ul>
                         <a href="" id="buyLink6" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Order now</a>
                     </div>
@@ -114,13 +115,13 @@
         </div>
     </div>
 </div>
-<div class="products-panel py-5">
+<div class="products py-5">
     <div class="container">
         <div class="row d-flex justify-content-between">
         <div class="col-lg-6 d-flex align-items-center">
             <div>
-                <h1>Easy to use control panel</h2>
-                <p>We are offering a clean and easy control panel for our game hosting, with all the feature you need.</p>
+                <h1>Easy to use control</h2>
+                <p>We are offering a clean and easy control for our game hosting, with all the feature you need.</p>
                 <ul>
                     <div class="row">
                         <div class="col-lg-6">  
@@ -138,7 +139,7 @@
             </div>
         </div>
             <div class="col-lg-6">
-                <div id="ProductsPanel" class="carousel slide" data-ride="carousel">
+                <div id="Product" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img class="d-block w-100" src="https://via.placeholder.com/600x340" alt="">
@@ -150,11 +151,11 @@
                             <img class="d-block w-100" src="https://via.placeholder.com/600x340" alt="">
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#ProductsPanel" role="button" data-slide="prev">
+                    <a class="carousel-control-prev" href="#Product" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#ProductsPanel" role="button" data-slide="next">
+                    <a class="carousel-control-next" href="#Product" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
@@ -165,19 +166,19 @@
 </div>
 <div class="products-faq py-5">
     <div class="container">
-        <h1 class="mb-5">Frequently Asked Questions</h1>
+        <h1 class="mb-5">FAQ</h1>
         <div id="accordion">
             <div class="row">
                 <div class="col-md-6">
                     <div class="card">
                         <div class="card-header" id="heading-1">
                             <h5 class="mb-0">
-                                <a role="button" data-toggle="collapse" href="#collapse-1" aria-expanded="false" aria-controls="collapse-1">Can I upgrade/downgrade my server?</a>
+                                <a role="button" data-toggle="collapse" href="#collapse-1" aria-expanded="false" aria-controls="collapse-1">Posso dar um upgrade no meu server após a compra?</a>
                             </h5>
                         </div>
                         <div id="collapse-1" class="collapse" data-parent="#accordion" aria-labelledby="heading-1">
                             <div class="card-body">
-                                Absolutely! Upgrade/downgrade your server at any time and pay onlt the difference at a prorated amount. Upgrades can be done automatically in the client area.
+                                Com certeza! Você poderá fazer isso automaticamente pelo nosso sistema de clientes.
                             </div>
                         </div>
                     </div>

@@ -2,30 +2,30 @@
     <div class="container">
         {include file="$template/includes/pageheader.tpl" title=$displayTitle desc=$tagline showbreadcrumb=false}
         <p>Seu servidor de Minecraft está aqui. Seja Forge, Fabric, Spigot ou Bukkit, todas as nossas opções incluem mods e slots ilimitados*.
-        Quer ajuda para montar seu servidor? Também temos planos premium especiais com consultoria e setup para que você receba seu servidor prontinho e configurado.</p>
+        </p>
     </div>
 </div>
 <div class="products-plans">
     <div class="container">
         <h2 class="products-plans-title mb-5">Nossos <span>Planos</span></h2>
-        <div class="swicher-btn text-center justify-content-center mb-5">
-            <a href="javascript:novoid(0)" class="btn btn-primary" onclick="changePrice('1')">Planos Econômicos</a>
-            <a href="javascript:novoid(0)" class="btn btn-primary" onclick="changePrice('2')">Planos Premium</a>
-        </div>
+         <div class="swicher-btn text-center justify-content-center mb-5">
+            <a href="javascript:novoid(0)" class="btn btn-primary" onclick="changePrice('1')">Planos Mensal</a>
+            <a href="javascript:novoid(0)" class="btn btn-primary" onclick="changePrice('2')">Planos Quadrimestral</a>
+        </div> 
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="card mb-5">
                     <div class="card-body text-center">
-                        <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/services/minecraft/block-1.png">
+                        <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/services/minecraft/dirt.png">
                         <h1 class="pt-3"><span id="memory1">2</span>GB</h1>
-                        <h2>&dollar;<span id="price1">R$20,00</span> / <span>mensal</span></h2>
+                        <h2><span id="price1">R$20,00</span> / <span>mensal</span></h2>
                         <ul class="py-3">
                             <li><i class="fas fa-check-circle"></i> CPU Xeon Ultima geração</li>
                             <li><i class="fas fa-check-circle"></i> NVMe SSD</li>
                             <li><i class="fas fa-check-circle"></i> Painel Pterodactyl</li>
                             <li><i class="fas fa-check-circle"></i> Suporte 24/7</li>
                         </ul>
-                        <a href="" id="buyLink1" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Order now</a>
+                        <a href="" id="buyLink1" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Comprar agora</a>
                     </div>
                 </div>
             </div>
@@ -35,87 +35,87 @@
 						<div class="ribbon-blue">Popular</div>
 					</div>
                     <div class="card-body text-center">
-                        <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/services/minecraft/block-3.png">
+                        <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/services/minecraft/grass.png">
                         <h1 class="pt-3"><span id="memory2">4</span>GB</h1>
-                        <h2>&dollar;<span id="price2">R$35,00</span> / <span>mensal</span></h2>
+                        <h2><span id="price2">R$37,99</span> / <span>mensal</span></h2>
                         <ul class="py-3">
                             <li><i class="fas fa-check-circle"></i> CPU Xeon Ultima geração</li>
                             <li><i class="fas fa-check-circle"></i> NVMe SSD</li>
                             <li><i class="fas fa-check-circle"></i> Painel Pterodactyl</li>
                             <li><i class="fas fa-check-circle"></i> Suporte 24/7</li>
                         </ul>
-                        <a href="" id="buyLink2" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Order now</a>
+                        <a href="" id="buyLink2" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Comprar agora</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="card mb-5">
                     <div class="card-body text-center">
-                        <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/services/minecraft/block-5.png">
+                        <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/services/minecraft/stone.png">
                         <h1 class="pt-3"><span id="memory3">6</span>GB</h1>
-                        <h2>&dollar;<span id="price3">R$52,00</span> / <span>mensal</span></h2>
+                        <h2><span id="price3">R$55,00</span> / <span>mensal</span></h2>
                         <ul class="py-3">
                             <li><i class="fas fa-check-circle"></i> CPU Xeon Ultima geração</li>
                             <li><i class="fas fa-check-circle"></i> NVMe SSD</li>
                             <li><i class="fas fa-check-circle"></i> Painel Pterodactyl</li>
                             <li><i class="fas fa-check-circle"></i> Suporte 24/7</li>
                         </ul>
-                        <a href="" id="buyLink3" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Order now</a>
+                        <a href="" id="buyLink3" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Comprar agora</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="card mb-5">
                     <div class="card-body text-center">
-                        <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/services/minecraft/block-7.png">
+                        <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/services/minecraft/wood.png">
                         <h1 class="pt-3"><span id="memory4">8</span>GB</h1>
-                        <h2>&dollar;<span id="price4">R$70,00</span> / <span>mensal</span></h2>
+                        <h2><span id="price4">R$70,00</span> / <span>mensal</span></h2>
                         <ul class="py-3">
                             <li><i class="fas fa-check-circle"></i> CPU Xeon Ultima geração</li>
                             <li><i class="fas fa-check-circle"></i> NVMe SSD</li>
                             <li><i class="fas fa-check-circle"></i> Painel Pterodactyl</li>
                             <li><i class="fas fa-check-circle"></i> Suporte 24/7</li>
                         </ul>
-                        <a href="" id="buyLink4" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Order now</a>
+                        <a href="" id="buyLink4" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Comprar agora</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="card mb-5">
                     <div class="card-body text-center">
-                        <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/services/minecraft/block-9.png">
+                        <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/services/minecraft/gold.png">
                         <h1 class="pt-3"><span id="memory5">10</span>GB</h1>
-                        <h2>&dollar;<span id="price5">R$90,00</span> / <span>mensal</span></h2>
+                        <h2><span id="price5">R$90,00</span> / <span>mensal</span></h2>
                         <ul class="py-3">
                             <li><i class="fas fa-check-circle"></i> CPU Xeon Ultima geração</li>
                             <li><i class="fas fa-check-circle"></i> NVMe SSD</li>
                             <li><i class="fas fa-check-circle"></i> Painel Pterodactyl</li>
                             <li><i class="fas fa-check-circle"></i> Suporte 24/7</li>
                         </ul>
-                        <a href="" id="buyLink5" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Order now</a>
+                        <a href="" id="buyLink5" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Comprar agora</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="card mb-5">
                     <div class="card-body text-center">
-                        <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/services/minecraft/block-11.png">
+                        <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/img/ruzenko/services/minecraft/diamond.png">
                         <h1 class="pt-3"><span id="memory6">12</span>GB</h1>
-                        <h2>&dollar;<span id="price6">R$109,99</span> / <span>mensal</span></h2>
+                        <h2><span id="price6">R$105,99</span> / <span>mensal</span></h2>
                         <ul class="py-3">
                             <li><i class="fas fa-check-circle"></i> CPU Xeon Ultima geração</li>
                             <li><i class="fas fa-check-circle"></i> NVMe SSD</li>
                             <li><i class="fas fa-check-circle"></i> Painel Pterodactyl</li>
                             <li><i class="fas fa-check-circle"></i> Suporte 24/7</li>
                         </ul>
-                        <a href="" id="buyLink6" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Order now</a>
+                        <a href="" id="buyLink6" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Comprar agora</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div class="products py-5">
+<!-- <div class="products py-5">
     <div class="container">
         <div class="row d-flex justify-content-between">
         <div class="col-lg-6 d-flex align-items-center">
@@ -163,7 +163,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
 <div class="products-faq py-5">
     <div class="container">
         <h1 class="mb-5">FAQ</h1>
@@ -185,24 +185,24 @@
                     <div class="card">
                         <div class="card-header" id="heading-2">
                             <h5 class="mb-0">
-                                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">How to lorem?</a>
+                                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">Slots Ilimitados?</a>
                             </h5>
                         </div>
                         <div id="collapse-2" class="collapse" data-parent="#accordion" aria-labelledby="heading-2">
                             <div class="card-body">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facere placeat dolor tempora dicta! Provident, vero voluptas! Culpa at, dolor repellat tenetur sunt, nobis repudiandae odit veniam, a placeat quasi.
+                                Todos os nossos planos incluem a capacidade de configurar quantos slots quiser porém temos um número recomendado de slots para cada plano de acordo com as configurações do servidor em questão.
                             </div>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-header" id="heading-3">
                             <h5 class="mb-0">
-                                <a role="button" data-toggle="collapse" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">Can I use a Lorem?</a>
+                                <a role="button" data-toggle="collapse" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">Posso colocar mods?</a>
                             </h5>
                         </div>
                         <div id="collapse-3" class="collapse" data-parent="#accordion" aria-labelledby="heading-3">
                             <div class="card-body">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facere placeat dolor tempora dicta! Provident, vero voluptas! Culpa at, dolor repellat tenetur sunt, nobis repudiandae odit veniam, a placeat quasi.
+                                Com certeza! Mods são liberados em todos os nossos planos mas recomendamos contratar planos acima do tier "Grass" para que seu servidor não sofra com queda de performance.
                             </div>
                         </div>
                     </div>
@@ -211,16 +211,16 @@
                     <div class="card">
                         <div class="card-header" id="heading-4">
                             <h5 class="mb-0">
-                                <a role="button" data-toggle="collapse" href="#collapse-4" aria-expanded="false" aria-controls="collapse-4">How do I give access to Lorem?</a>
+                                <a role="button" data-toggle="collapse" href="#collapse-4" aria-expanded="false" aria-controls="collapse-4">O setup é imediato após a compra?</a>
                             </h5>
                         </div>
                         <div id="collapse-4" class="collapse" data-parent="#accordion" aria-labelledby="heading-4">
                             <div class="card-body">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facere placeat dolor tempora dicta! Provident, vero voluptas! Culpa at, dolor repellat tenetur sunt, nobis repudiandae odit veniam, a placeat quasi.
+                                No momento nosso setup precisa ser feito manualmente pela nossa equipe e enviado ao cliente por e-mail. Utilizando suas credenciais para acessar seu servidor.
                             </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <!-- <div class="card">
                         <div class="card-header" id="heading-5">
                             <h5 class="mb-0">
                                 <a role="button" data-toggle="collapse" href="#collapse-5" aria-expanded="false" aria-controls="collapse-5">What happens if all my files get deleted on accident?</a>
@@ -231,8 +231,8 @@
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facere placeat dolor tempora dicta! Provident, vero voluptas! Culpa at, dolor repellat tenetur sunt, nobis repudiandae odit veniam, a placeat quasi.
                             </div>
                         </div>
-                    </div>
-                    <div class="card">
+                    </div> -->
+                    <!-- <div class="card">
                         <div class="card-header" id="heading-6">
                             <h5 class="mb-0">
                                 <a role="button" data-toggle="collapse" href="#collapse-6" aria-expanded="false" aria-controls="collapse-6">How can I easily move from another hosting company?</a>
@@ -243,7 +243,7 @@
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facere placeat dolor tempora dicta! Provident, vero voluptas! Culpa at, dolor repellat tenetur sunt, nobis repudiandae odit veniam, a placeat quasi.
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -279,59 +279,59 @@
         let price6 = document.getElementById("price6");
         let buyLink6 = document.getElementById("buyLink6");
 
-        // Budget Plan
+        // Mensal Plan
         if (type === "1") {
             // First
-            memory1.innerText = "512"; // Memory
-            price1.innerText = "0.90"; // Price
+            memory1.innerText = "2"; // Memory
+            price1.innerText = "R$20,00"; // Price
             buyLink1.setAttribute("href", ""); // Link
             // Secound
-            memory2.innerText = "1"; // Memory
-            price2.innerText = "1.90"; // Price
+            memory2.innerText = "4"; // Memory
+            price2.innerText = "R$37,99"; // Price
             buyLink2.setAttribute("href", ""); // Link
             // Third
-            memory3.innerText = "3"; // Memory
-            price3.innerText = "3.20"; // Price
+            memory3.innerText = "6"; // Memory
+            price3.innerText = "R$55,00"; // Price
             buyLink3.setAttribute("href", ""); // Link
             // Four
-            memory4.innerText = "6"; // Memory
-            price4.innerText = "5"; // Price
+            memory4.innerText = "8"; // Memory
+            price4.innerText = "R$70,00"; // Price
             buyLink4.setAttribute("href", ""); // Link
             // Five
-            memory5.innerText = "8"; // Memory
-            price5.innerText = "7.50"; // Price
+            memory5.innerText = "10"; // Memory
+            price5.innerText = "R$90,00"; // Price
             buyLink5.setAttribute("href", ""); // Link
             // Six
             memory6.innerText = "12"; // Memory
-            price6.innerText = "10"; // Price
+            price6.innerText = "R$105,99"; // Price
             buyLink6.setAttribute("href", ""); // Link
         }
 
-        // Premium Plan
+        // Quadrimestral Plan
         if (type === "2") {
             // First
-            memory1.innerText = "512"; // Memory
-            price1.innerText = "1.90"; // Price
+            memory1.innerText = "2"; // Memory
+            price1.innerText = "R$70,00"; // Price
             buyLink1.setAttribute("href", ""); // Link
             // Secound
-            memory2.innerText = "1"; // Memory
-            price2.innerText = "2.90"; // Price
+            memory2.innerText = "4"; // Memory
+            price2.innerText = "R$130,00"; // Price
             buyLink2.setAttribute("href", ""); // Link
             // Third
-            memory3.innerText = "3"; // Memory
-            price3.innerText = "4.20"; // Price
+            memory3.innerText = "6"; // Memory
+            price3.innerText = "R$190,00"; // Price
             buyLink3.setAttribute("href", ""); // Link
             // Four
-            memory4.innerText = "6"; // Memory
-            price4.innerText = "6"; // Price
+            memory4.innerText = "8"; // Memory
+            price4.innerText = "R$250,00"; // Price
             buyLink4.setAttribute("href", ""); // Link
             // Five
-            memory5.innerText = "8"; // Memory
-            price5.innerText = "8.50"; // Price
+            memory5.innerText = "10"; // Memory
+            price5.innerText = "R$320,00"; // Price
             buyLink5.setAttribute("href", ""); // Link
             // Six
             memory6.innerText = "12"; // Memory
-            price6.innerText = "12"; // Price
+            price6.innerText = "R$380,00"; // Price
             buyLink6.setAttribute("href", ""); // Link
         }
     };

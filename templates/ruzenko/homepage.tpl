@@ -7,7 +7,7 @@
                         <div class="col-xl-6 col-lg-8">
                             <div class="carousel-content mt-5">
                                 <h1 class="animate__animated animate__fadeInDown">Servidores Minecraft</h1>
-                                <p class="animate__animated animate__fadeInDown animate__delay-1s">À partir de R$10</p><br />
+                                <p class="animate__animated animate__fadeInDown animate__delay-1s">À partir de R$20</p><br />
                                 <a href="{$WEB_ROOT}/minecraft.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-primary">Saiba mais</a>
                                 <a href="{$WEB_ROOT}/cart.php" class="animate__animated animate__fadeInDown animate__delay-2s btn btn-outline-light">Comprar agora</a>
                             </div>
